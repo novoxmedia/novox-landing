@@ -1,0 +1,19 @@
+/* ===== Legal pages (privacy / terms / refund) ===== */
+.legal-wrap{min-height:100vh;padding:60px 0 80px}
+.legal-doc{padding:48px 28px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);margin-top:32px;margin-bottom:32px}
+.legal-doc h1{font-size:clamp(24px,4vw,36px);margin-bottom:6px}
+.legal-doc .meta{color:var(--muted);font-size:13.5px;margin-bottom:18px}
+.legal-doc .intro{font-size:16px;line-height:1.7;margin-bottom:32px;padding-bottom:24px;border-bottom:1px solid var(--line)}
+.legal-doc section{margin-bottom:24px}
+.legal-doc h2{font-size:17px;margin-bottom:10px;color:var(--ink)}
+.legal-doc p{color:var(--muted);font-size:15px;line-height:1.7}
+.legal-doc ul{margin:8px 0 0 18px;display:grid;gap:7px}
+.legal-doc li{color:var(--muted);font-size:15px;line-height:1.6}
+.legal-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:36px;padding-top:24px;border-top:1px solid var(--line)}
+.legal-links a{display:inline-flex;align-items:center;padding:9px 16px;border:1px solid var(--line);border-radius:10px;font-weight:600;font-size:14px;color:var(--violet);transition:background .15s,border-color .15s}
+.legal-links a:hover{background:rgba(124,92,255,.07);border-color:var(--violet)}
+.legal-copy{color:var(--muted);font-size:12.5px;margin-top:16px}
+
+@media(max-width:640px){
+  .legal-doc{padding:28px 18px}
+}
