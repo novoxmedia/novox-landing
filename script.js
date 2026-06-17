@@ -2,7 +2,7 @@
    NovoX Media landing page — interactions
    Change APP_URL to your live app domain before deploying.
    ========================================================= */
-const APP_URL = 'http://localhost:5174';
+const APP_URL = 'https://novox-user-frontend.vercel.app';
 
 // Point every "Start free" / "Log in" button at the app.
 document.querySelectorAll('.cta-start').forEach((a) => (a.href = APP_URL + '/register'));
